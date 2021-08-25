@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgba(223, 242, 247, .5);
+}
+
+span {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.bot-container {
+    padding-top: 120px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat {
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ ::-webkit-input-placeholder {
+    color: .711
+}
+
+input {
+    border: 0;
+    padding: 15px;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    height: 700px;
+    width: 800px;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+#bot {
+    margin-left: auto;
+    padding: 15px
+}
+
+.font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.avatar {
+    height: 25px;
+}
+
+.response {
+    display: flex;
+    align-items: left;
+    margin: 1%;
+}
+
+.user {
+    display: flex;
+    align-items: right;
+    margin: 1%;
+}
+
+.buttonhome {
+    /* justify-content: right;
+	align-items: right; */
+    background-color: #fec107;
+    color: black;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonhome:hover {
+    background-color: #e0a800;
+    color: black;
+    border: 0;
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 980px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .chat {
+        width: 75vw;
+        margin: 10vw;
+    }
+}
