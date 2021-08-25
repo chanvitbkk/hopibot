@@ -12,3 +12,4 @@ Sample
 ```bash
 $ npm install
 ```
+สวัสดี
