@@ -42,7 +42,7 @@ firebase deploy
 
 4. After that feel free to press ENTER untill finish :tada:
 
-:fire: Enjoy with the Firebase project :fire:
+### :fire: Enjoy with the Firebase project :fire:
 
 ## For 2 Factor Authentications
 
