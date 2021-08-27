@@ -41,3 +41,9 @@ firebase deploy
 ![](/src/READMEassets/firebase3.png)
 
 4. After that feel free to press ENTER untill finish :tada:
+
+## For 2 Factor Authentications
+
+Please select on of these function to the authentication process
+
+![](/src/READMEassets/authentication.png)
