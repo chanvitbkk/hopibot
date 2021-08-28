@@ -25,7 +25,11 @@ firebase deploy
 ```
 
 ## Terminal 
-1. Select all function (Incase using database. Need to create database first.)<br>
+1. Firebase initation
+```
+firebase init
+```
+- Select all function (Incase using database. Need to create database first.)<br>
 - Select all function (if needed)
 - :white_check_mark: For all file rules (For me it's overwrite because I alreay have one)
 
@@ -49,3 +53,16 @@ firebase deploy
 Please select on of these function to the authentication process
 
 ![](/src/READMEassets/authentication.png)
+
+## Deploy :rocket:
+
+```
+firebase deploy
+```
+Only hosting
+```
+firebase deploy --only hosting
+```
+
+## References :pushpin:
+https://firebase.google.com/docs/cli
