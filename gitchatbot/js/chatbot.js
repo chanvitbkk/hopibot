@@ -144,7 +144,7 @@ function matchPatient(input) {
     if (database.has(input)) {
         let user = database.get(input).name;
         userId = input;
-        return "Alright, I found " + user + " in my database";
+        return "Alright, I found " + user + " in the hospital database system";
     } else {
         return "I didn't find that Patient, please try again!";
     }
