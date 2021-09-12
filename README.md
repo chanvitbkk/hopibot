@@ -1,5 +1,11 @@
 ## Hopibot 
-Hospital website with chatbot
+Hopibot is the hospital website that implemented Chatbot and 2-Factor authentications via Google Firebase. The patient's relative can asking the information about the patient by entering the command on the Chatbot chatbox.
+
+## Tools
+1. Google Firebase Console
+2. Command Line Tool (or Terminal)
+3. Email (for verifying)
+4. Mobile (for OTP)
 
 ## Create Firebase Project
 1. Create Firebase project https://console.firebase.google.com/
